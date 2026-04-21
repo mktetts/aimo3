@@ -1,0 +1,352 @@
+id,problem,answer
+1,"Let (a, b,) and (n) be positive integers with both (a) and (b) greater
+than or equal to 2 and less than or equal to (2n). Define an (a \times b) cell
+loop in a (2n \times 2n) grid of cells to be the (2a + 2b - 4) cells that
+surround an ((a - 2) \times (b - 2)) (possibly empty) rectangle of cells in the
+grid.
+
+For example, the diagram shows a way to partition a (6 \times 6) grid into 4
+cell loops. The diagram consists of:
+
+* One outer rectangular loop covering the boundary,
+* One inner square loop centered inside,
+* One vertical rectangular loop on the right side,
+* One horizontal rectangular loop at the bottom.
+
+Find the number of ways to partition a (10 \times 10) grid of cells into 5 cell
+loops so that every cell of the grid belongs to exactly one cell loop.",83
+2,"Patrick started walking at a constant speed along a straight road from
+his school to the park. One hour after Patrick left, Tanya started running at a
+constant speed of $2$ miles per hour faster than Patrick walked, following the
+same straight road from the school to the park. One hour after Tanya left, José
+started bicycling at a constant speed of $7$ miles per hour faster than Tanya
+ran, following the same straight road from the school to the park. All three
+people arrived at the park at the same time. The distance from the school to the
+park is $\frac{m}{n}$ miles, where $m$ and $n$ are relatively prime positive
+integers. Find $m+n$.",277
+3,"Find the number of positive integer palindromes written in base $10$,
+with no zero digits, and whose digits add up to $13$. For example, $42124$ has
+these properties. Recall that a palindrome is a number whose representation
+reads the same from left to right as from right to left.",62
+4,"A hemisphere with radius $200$ sits on top of a horizontal circular
+disk with radius $200$, and the hemisphere and disk have the same center. Let
+$\mathcal T$ be the region of points $P$ in the disk such that a sphere of
+radius 42 can be placed on top of the disk at $P$ and lie completely inside the
+hemisphere. The area of $\mathcal T$ divided by the area of the disk is
+$\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find
+$p+q$.",79
+5,"Find the number of integers less than or equal to $100$ that are equal
+to $a + b + ab$ for some choice of distinct positive integers $a$ and $b$.",70
+6,"A plane contains points $A$ and $B$ with $AB = 1$. Point $A$ is
+rotated in the plane counterclockwise through an acute angle $\theta$ around
+point $B$ to a point $A \prime$. Point $B$ is rotated across a angle of $\theta$
+around point $A \prime$ clockwise to a point $B \prime$. $A B \prime = \frac
+{4}{3}$. If $\cos \theta = \frac{m}{n}$ where $m$ and $n$ are relatively prime
+positive integers, find $m+n$.",65
+7,"The product of all positive real numbers $x$ satisfying the
+equation\[\sqrt[20]{x^{\log_{2026} x}} = 26x\]is an integer $P$. Find the number
+of positive integer divisors of $P$",441
+8,"Find the number of functions $\pi$ mapping the set $A=\{1,2,3,4,5,6\}$
+onto $A$ such that for every $a\in A$,\[\pi(\pi(\pi(\pi(\pi(\pi(a))))))=a.\]",396
+9,"Let $N$ be the number of positive integer divisors of $17017^{17}$
+that leave a remainder of $5$ upon division by $12$. Find the remainder when $N$
+is divided by $1000$.",244
+10,"Joanne has a blank fair six-sided die and six stickers each displaying
+a different integer from $1$ to $6$. Joanne rolls the die and then places the
+sticker labeled $1$ on the top face of the die. She then rolls the die again,
+places the sticker labeled $2$ on the top face, and continues this process to
+place the rest of the stickers in order. If the die ever lands with a sticker
+already on its top face, the new sticker is placed to cover the old sticker. Let
+$p$ be the conditional probability that at the end of the process exactly one
+face has been left blank, given that all the even-numbered stickers are visible
+on faces of the die. Then $p$ can be written as $\frac{m}{n}$, where $m$ and $n$
+are relatively prime positive integers. Find $m+n$.",29
+11,"Let $\triangle ABC$ have side lengths $AB=13$, $BC=14$, and $CA=15$.
+Triangle $\triangle A'B'C'$ is obtained by rotating $\triangle ABC$ about its
+circumcenter so that $\overline{A'C'}$ is perpendicular to $\overline{BC}$, with
+$A'$ and $B$ not on the same side of line $B'C'$. Find the integer closest to
+the area of hexagon $AA'CC'BB'$",156
+12,"The integers from $1$ to $64$ are placed in some order into an
+$8\times8$ grid of cells with one number in each cell. Let $a_{i,j}$ be the
+number placed in the cell in row $i$ and column $j$, and let $M$ be the sum of
+the absolute differences between adjacent cells. That
+is,\[M=\sum^8_{i=1}\sum^7_{j=1}(|a_{i,j+1}-a_{i,j}|+|a_{j+1,i}-a_{j,i}|).\]Find
+the remainder when the maximum possible value of $M$ is divided by $1000$.",896
+13,"Triangle $\triangle ABC$ lies in plane $\mathcal{P}$ with $AB=6$,
+$AC=4$, and $\angle BAC=90^{\circ}$. Let $D$ be the reflection across
+$\overline{BC}$ of the centroid of $\triangle ABC$. Four spheres, all on the
+same side of $\mathcal{P}$, have radii $1$, $2$, $3$, and $r$ and are tangent to
+$\mathcal{P}$ at points $A$, $B$, $C$, and $D$, respectively. The four spheres
+are also each tangent to a second plane $\mathcal{T}$ and are all on the same
+side of $\mathcal{T}$. The value of $r$ can be written as $\frac{m}{n}$, where
+$m$ and $n$ are relatively prime positive integers. Find $m+n$.",161
+14,"For each nonnegative integer $r$ less than $502$,
+define\[S_r=\sum_{m\geq 0}\binom{10,000}{502m+r},\]where $\binom{10,000}{n}$ is
+defined to be $0$ when $n>10,000$. That is, $S_r$ is the sum of all the binomial
+coefficients of the form $\binom{10,000}{k}$ for which $0\leq k\leq 10,000$ and
+$k-r$ is a multiple of $502$. Find the number of integers in the list
+$S_0,S_1,S_2,\dots,S_{501}$ that are multiples of the prime number $503$.",39
+15,"In an equiangular pentagon, the sum of the squares of the side lengths
+equals $308$, and the sum of the squares of the diagonal lengths equals $800$.
+The square of the perimeter of the pentagon can be expressed as $m\sqrt{n}$,
+where $m$ and $n$ are positive integers and $n$ is not divisible by the square
+of any prime. Find $m+n$.",681
+16,"Find the sum of the $11$th terms of all arithmetic sequences of
+integers that have first term equal to $4$ and include both $24$ and $34$ as
+terms.",178
+17,"Let $ABCDE$ be a nonconvex pentagon with internal angles $\angle A =
+\angle E = 90^\circ$ and $\angle B = \angle D = 45^\circ.$ Suppose that $DE <
+AB, AE = 20, BC = 14\sqrt2,$ and points $B,C,$ and $D$ lie on the same side of
+line $AE.$ Suppose further that $AB$ is an integer with $AB < 2026$ and the area
+of pentagon $ABCDE$ is an integer multiple of $16.$ Find the number of possible
+values of $AB.$",503
+18,"Find the number of seven-tuple $(a_1, a_2, a_3, a_4, a_5, a_6, a_7)$
+that follows the conditions.
+
+$\{a_1, a_2, a_3, a_4, a_5, a_6, a_7\} \subset \{1,2,3\}$
+$a_1+a_2+a_3+a_4+a_5+a_6+a_7$ is a multiple of $3$. $a_1 a_2 a_4 + a_2 a_3 a_5 +
+a_3 a_4 a_6 + a_4 a_5 a_7 + a_5 a_6 a_1 + a_6 a_7 a_2$ is a multiple of $3$.",393
+19,"The figure below shows a grid of 10 squares in a row. Each square has
+a diagonal connecting its lower left vertex to its upper right vertex. A bug
+moves along the line segments from vertex to vertex, never traversing the same
+segment twice and never moving from right to left along a horizontal or diagonal
+segment. Let $N$ be the number of paths the bug can take from the lower left
+corner ($A$) to the upper right corner ($B$). One such path from $A$ to $B$ is
+shown by the thick line segments in the figure. Find $\sqrt{N}$.Detailed Image
+Description for AI Prompting1. The Grid StructureThe image displays a $10 \times
+1$ grid of contiguous squares.If we map this to a coordinate plane, the
+bottom-left corner $A$ is located at $(0, 0)$ and the top-right corner $B$ is
+located at $(10, 1)$.The grid consists of 11 vertical line segments connecting
+$(x, 0)$ to $(x, 1)$ for $x \in \{0, 1, 2, ..., 10\}$.It contains 10 top
+horizontal segments connecting $(x, 1)$ to $(x+1, 1)$ and 10 bottom horizontal
+segments connecting $(x, 0)$ to $(x+1, 0)$ for $x \in \{0, ..., 9\}$.Inside each
+of the 10 squares, there is exactly one diagonal line segment. It connects the
+lower-left vertex $(x, 0)$ to the upper-right vertex $(x+1, 1)$.2. The Bug's
+Movement RulesBased on the text and the visual segments, the bug at any vertex
+$(x, y)$ can only make the following valid moves (provided it doesn't revisit a
+segment and stays within the grid boundaries):Move Right: From $(x, y)$ to
+$(x+1, y)$.Move Up: From $(x, 0)$ to $(x, 1)$.Move Down: From $(x, 1)$ to $(x,
+0)$.Move Diagonal (Up-Right): From $(x, 0)$ to $(x+1, 1)$.Note: Moving left or
+moving down-left is explicitly forbidden by the text and grid layout.3. The
+Example Path (Thick Red Line)The image highlights one valid path in bold red to
+demonstrate the rules. Traced sequentially by coordinates, the path is:Starts at
+$A(0, 0)$Moves UP to $(0, 1)$Moves RIGHT to $(1, 1)$Moves RIGHT to $(2, 1)$Moves
+DOWN to $(2, 0)$Moves DIAGONAL to $(3, 1)$Moves DOWN to $(3, 0)$Moves DIAGONAL
+to $(4, 1)$Moves DOWN to $(4, 0)$Moves RIGHT to $(5, 0)$Moves UP to $(5,
+1)$Moves RIGHT to $(6, 1)$Moves DOWN to $(6, 0)$Moves DIAGONAL to $(7, 1)$Moves
+DOWN to $(7, 0)$Moves RIGHT to $(8, 0)$Moves RIGHT to $(9, 0)$Moves RIGHT to
+$(10, 0)$Moves UP to $B(10, 1)$",243
+20,"For integers $a$ and $b$, let $a\circ b = a-b$ if $a$ is odd and $b$
+is even, and $a+b$ otherwise. Find the number of sequences
+$a_1,a_2,a_3,\dots,a_n$ of positive integers such that\[a_1+a_2+a_3+\dots + a_n
+= 12\text{ and }a_1\circ a_2\circ a_3\circ\dots\circ a_n = 0,\]where the
+operations are performed from left to right; that is, $a_1\circ a_2\circ a_3$
+means $(a_1\circ a_2)\circ a_3$.",157
+21,"Call finite sets of integers $S$ and $T$ cousins if
+
+$S$ and $T$ have the same number of elements, $S$ and $T$ are disjoint, and the
+elements of $S$ can be paired with the elements of $T$ so that the elements in
+each pair differ by exactly $1$. For example, $\{1,2,5\}$ and $\{0,3,4\}$ are
+cousins. Suppose that the set $S$ has exactly $4040$ cousins. Find the least
+number of elements the set $S$ can have.",107
+22,"Consider a tetrahedron with two isosceles triangle faces with side
+lengths $5\sqrt{10}, \,5\sqrt{10},$ and $10$ and two isosceles triangle faces
+with side lengths $5\sqrt{10},\, 5\sqrt{10},$ and $18.$ The four vertices of the
+tetrahedron lie on a sphere with center $S,$ and the four faces of the
+tetrahedron are tangent to a sphere with center $R.$ The distance $RS$ can be
+written as $\tfrac mn,$ where $m$ and $n$ are relatively prime positive
+integers. Find ${}m + n.$",223
+23,"Find the greatest integer $n$ such that the cubic polynomial\[x^{3}
+-\frac{n}{6}x^{2} + (n - 11)x - 400\]has roots $\alpha^{2}$, $\beta^{2}$, and
+$\gamma^{2}$, where $\alpha$, $\beta$, and $\gamma$ are complex numbers, and
+there are exactly seven different possible values for $\alpha + \beta + \gamma$",132
+24,"Let $\triangle ABC{}$ be a triangle with $D$ on $\overline{BC}$ such
+that $\overline{AD}{}$ bisects $\angle BAC.$ Let $\omega{}$ be the circle that
+passes through $A$ and is tangent to segment $\overline{BC}{}$ at $D.$ Let $E
+\neq A$ and $F \neq A$ be the intersections of $\omega{}$ with segments
+$\overline{AB}{}$ and $\overline{AC},$ respectively. Suppose that $AB = 200, AC
+= 225,$ and all of $AE, AF, BD,$ and $CD{}$ are positive integers. Find the
+greatest possible value of $BC.$",340
+25,"Let $S$ denote the value of the infinite
+sum\[\frac{1}{9}+\frac{1}{99}+\frac{1}{999}+\frac{1}{9999}+\dots.\]Find the
+remainder when the greatest integer less than or equal to $10^{100}S$ is divided
+by $1000$.",669
+26,"Isosceles triangle $\triangle ABC$ has $AB=BC$. Let $I$ be the
+incenter of $\triangle ABC$. The perimeters of $\triangle ABC$ and $\triangle
+AIC$ are in the ratio $125:6$, and all the sides of both triangles have integer
+lengths. Find the minimum possible value of $AB$.",245
+27,"A standard fair six-sided die is rolled repeatedly. Each time the die
+reads 1 or 2, Alice gets a coin; each time it reads 3 or 4, Bob gets a coin; and
+each time it reads 5 or 6, Carol gets a coin. The probability that Alice and Bob
+each receive at least two coins before Carol receives any coins can be written
+as $\tfrac mn,$ where $m$ and $n$ are relatively prime positive integers. Find
+$100m+n.$",754
+28,"Find the sum of all real numbers $r$ such that there is at least one
+point where the circle with radius $r$ centered at $(4,39)$ is tangent to the
+parabola with equation $2y=x^2-8x+12$.",50
+29,"An urn contains $n$ marbles. Each marble is either red or blue, and
+there are at least $7$ marbles of each color. When $7$ marbles are drawn
+randomly from the urn without replacement, the probability that exactly $4$ of
+them are red equals the probability that exactly $5$ of them are red. Find the
+sum of the five least values of $n$ for which this is possible.",190
+30,"For each positive integer $n$ let $f(n)$ be the value of the base-ten
+numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the
+greatest digit in $n$. For example, if $n=72$, then $b=8$, and $72$ as a numeral
+in base $8$ equals $7\cdot 8+2=58$; therefore $f(72)=58$. Find the number of
+positive integers $n$ less than $1000$ such that $f(n)=n$.",279
+31,"Let $p(x)$ be the unique polynomial of degree at most $8$ and with
+rational coefficients such that $p(\sqrt[3]{2} + \sqrt[3]{3}) = \sqrt[3]{6}$.
+Compute $p(1)$.Find the value of $100 \times p(1)$.",168
+32,"Let $\zeta = \cos \frac{2\pi}{19} + i \sin \frac{2\pi}{19}$. It is
+given that the polynomial $x^3 + 16x^2 + 3x - 229$ has three distinct real
+roots, and its largest root can be uniquely written in the form$$a_1\zeta +
+a_2\zeta^2 + \cdots + a_{18}\zeta^{18}$$for some rational numbers $a_1, \dots,
+a_{18}$. Compute $a_1^2 + a_2^2 + \cdots + a_{18}^2$.",564
+33,"Two mice and 100 pieces of cheese are uniformly and independently
+placed at random on the boundary of a circle. Each mouse walks to the piece of
+cheese closest to it, with ties broken independently at random. Compute the
+probability that the two mice walk to the same piece of cheese.The probability
+that the two mice walk to the same piece of cheese can be written as $m/n$,
+where $m$ and $n$ are relatively prime positive integers. Find $m+n$",205
+34,"Let H, M, and T be (not necessarily distinct) digits such that H is
+nonzero and HMMT = HTM x HT. Compute the only possible value of the four-digit
+positive integer HMMT.",1000
+35,"Compute the number of ways to fill each of the outer 8 cells of a 3 x 3 
+grid with exactly one of the numbers 1, 2, and 3 such that the top row, bottom
+row, left column, and right column each contain no repeated numbers.",18
+36,"A rectangle with length 4 and height 2 is placed in the bottom left
+corner of a square with side length 10. Regions A and B are separated by a line
+segment drawn from the rectangle's upper right corner to some point on the
+boundary of the square. Given that regions A and B have the same perimeter,
+compute the positive difference between the areas of regions A and B.",4
+37,"Over all nonnegative integers a, b, c, and d such that ab + cd = 31
+and ac + bd = 29, compute the minimum possible value of a + b + c + d.",17
+38,"Let $ABC$ be a right triangle with $\angle ABC = 90^\circ$ and $AB <
+BC$. Let $M$ be the midpoint of $AC$. Let $T$ be the unique point lying on the
+segment $BC$ such that $\angle BMT = 90^\circ$. Given that $AB = 5$ and $MT =
+3$, the length of $CT$ can be written in the form $\frac{p\sqrt{q}}{r}$, where
+$p$, $q$, and $r$ are positive integers, $q$ is not divisible by the square of
+any prime, and $p$ and $r$ are coprime. Find $p+q+r$",29
+39,"A tromino is any connected figure constructed by joining 3 unit
+squares edge-to-edge. Compute the number of ways to tile a 2 x 6 rectangular
+grid with 4 nonoverlapping trominoes.",11
+40,"Let ABC be a triangle with AB = 60, AC = 67, and BC = 69. The incircle
+ω of triangle ABC touches sides BC, CA, and AB at D, E, and F, respectively. Let
+D' be the point diametrically opposite to D in ω. Let the common chord of the
+circumcircles of triangles BD'F and CD'E meet line BC at X. Compute BX.",45
+41,"Marin is taking a random walk on a line. For each integer $n$ ranging
+from 1 to 10, inclusive and in order, Marin takes a step of length $F_n$ either
+left or right with equal probability, where $F_n$ is the $n$th Fibonacci number.
+(The Fibonacci numbers are defined by $F_1 = F_2 = 1$ and the recurrence $F_n =
+F_{n-1} + F_{n-2}$ for all $n \ge 3$.) Marin's expected distance from his
+starting point can be expressed as a fraction $\frac{p}{q}$ in simplest form,
+where $p$ and $q$ are coprime positive integers. Compute $p+q$.",3805
+42,"An equilateral triangle-shaped cake of side length 5 is cut into 25
+unit equilateral triangle pieces. Jacob selects two distinct edges of the cake,
+then picks one point independently and uniformly at random on each of the two
+selected edges. He cuts along the line through these two points. The expected
+number of pieces of cake after all cuts can be expressed as a fraction
+$\frac{p}{q}$ in simplest form, where $p$ and $q$ are coprime positive integers.
+Compute $p+q$.",163
+43,"Compute the largest possible value of $\gcd\left(\binom{n}{3} - 1,
+\binom{n}{4} - 1\right)$ as $n$ ranges through all positive integers greater
+than 3.",102
+44,"Derek is at the front of a line, with six clones named Derek #1, Derek
+#2, Derek #3, Derek #4, Derek #5, and Derek #6 standing behind him in a
+uniformly random order. For all positive integers $k$ between 1 and 6,
+inclusive, on the $k$th minute from now, Derek #$k$ will swap positions with
+whoever is standing directly in front of him in the line. The probability that
+after 6 minutes, Derek is still at the front of the line can be expressed as a
+fraction $\frac{p}{q}$ in simplest form, where $p$ and $q$ are coprime positive
+integers. Compute $p+q$.",197
+45,"A point $P$ is selected uniformly at random on one of the straight
+edges of a quarter circle, and another point $Q$ is chosen independently and
+uniformly at random on the other straight edge. The probability there exists a
+point $A$ on the arc of the quarter circle such that $\angle PAQ$ is obtuse can
+be written in the form $\frac{a - b\pi}{c}$, where $a$, $b$, and $c$ are
+positive integers and $\gcd(a,b,c) = 1$. Compute $a+b+c$",9
+46,"Let $\Gamma$ be a sphere of radius 5. Let $A$, $B$, $C$, and $D$ be
+points on $\Gamma$ such that $AB = BC = CD = DA = 8$ and $\angle ABC = \angle
+BCD = \angle CDA = \angle DAB$. Compute the value of $AC^2$.",72
+47,"Compute $\sum_{k=1}^{4004} \gcd(k, 4004) \cos\left(\frac{\pi
+k}{2002}\right)$.",1440
+48,"The concatenation of two base-10 numbers (possibly with leading 0s) is
+defined as the base-10 number formed by joining them together. For example, the
+concatenation of 1402 and 00213 is 140200213. Let $N$ be the number of
+2026-digit multiples of 3 which cannot be expressed as the concatenation of two
+smaller multiples of 3 (possibly with leading 0s). $N$ can be uniquely expressed
+in the form $a \cdot b^c$, where $a$, $b$, and $c$ are positive integers, $b$ is
+prime, and $a$ is not divisible by $b$. Compute $a+b+c$.",2049
+49,"There exists exactly one ordered pair of positive integers $(m, n)$,
+both greater than 1, with the property that, when written out in base 10, $m
+\cdot n = ABCD$ and $\binom{m}{n} = CDAB$ for distinct nonzero digits $A$, $B$,
+$C$, and $D$. Compute $m + n$.",136
+50,"Sebastian is going for a walk in the coordinate plane. He starts at
+the origin facing in the positive $x$ direction. Each minute, he takes a step
+forward, then randomly chooses one of the three axial directions other than the
+opposite of his current orientation. Sebastian stops walking once he returns to
+a point he has already visited. Let $E$ be the exact expected number of steps
+Sebastian walks. Compute the greatest integer less than or equal to $100E$.",1408
+51,"Let $E = \log_{10} \sum_{k=0}^{15000} \frac{30000!}{(k!)^2(30000 -
+2k)!!}$. Compute the integer nearest to $1000(E - 14311)$.",88
+52,"Kelvin the frog starts at the center of a regular hexagon ABCDEF with
+side length 100, facing towards A. He hops forward an integer distance between 0
+and 200 units, inclusive, then turns 120° clockwise. He repeats this process two
+more times (possibly jumping different distances), ending up within hexagon
+ABCDEF (possibly on its boundary). Let N be the number of distinct paths he
+could have taken. Compute the remainder when N is divided by 100000.",60401
+53,"Let ABCD and W XY Z be squares such that W lies on segment AD, X lies
+on segment AB, and points Y and Z lie strictly inside ABCD. Given that AW = 4,
+AX = 5, and AB = 12, compute the area of triangle △BCY .",18
+54,"Let HORSE be a convex pentagon such that ∠EHO = ∠ORS = ∠SEH = 90◦ and
+∠HOR = ∠RSE = 135◦ . Given that HO = 20, SE = 26, and OS = 10, compute the area
+of HORSE.",191
+55,"Let $ABCD$ be a rectangle with $AB = 12$ and $BC = 16$. Points $W$,
+$X$, $Y$, and $Z$ lie on sides $AB$, $BC$, $CD$, and $DA$, respectively, such
+that $WXYZ$ is a rhombus with area 120. The length of $XY$ can be written in the
+form $a\sqrt{b}$, where $a$ and $b$ are positive integers and $b$ is not
+divisible by the square of any prime. Compute $a+b$.",10
+56,"Let $ABC$ be a triangle with $\angle BAC = 90^\circ$. Points $X$ and
+$Y$ are such that $B$, $X$, $Y$, and $C$ lie on segment $BC$ in that order, $BX
+= 4$, $XY = 5$, and $YC = 3$. Let $T$ be a point lying on segment $AC$ such that
+$TA = TX = TY = \ell$ for some $\ell$. Compute the value of $3\ell^2$.",49
+57,"Let $ABC$ be a triangle, and $M$ be the midpoint of segment $BC$.
+Points $P$ and $Q$ lie on segments $AB$ and $AC$, respectively, so that $\angle
+PMB = \angle QMC = \frac{1}{2}\angle BAC$. Given that $AP = 1$, $AQ = 3$, and
+$BC = 8$. The length of $BP$ can be written in the form $\sqrt{a} - b$, where
+$a$ and $b$ are positive integers. Compute $a+b$.",18
+58,"Let $ABC$ be a triangle with centroid $G$ and circumcenter $O$.
+Suppose that the orthocenter of triangle $AGO$ lies on line $BC$. Given that $AB
+= 11$ and $AC = 13$, the length of $BC$ can be expressed in the form
+$\frac{a\sqrt{b}}{c}$, where $a$, $b$, and $c$ are positive integers, $b$ is not
+divisible by the square of any prime, and $a$ and $c$ are coprime. Compute
+$a+b+c$.",440
+59,"Let $S$ be the set of all ordered pairs $(x, y)$ of nonnegative
+integers $0 \le x \le 19$ and $0 \le y \le 2$. Compute the number of
+permutations $(x_1, y_1), (x_2, y_2), \dots, (x_{60}, y_{60})$ of the elements
+of $S$ such that:$y_1 = 2$ and $y_{60} = 0$;for all nonnegative integers $1 \le
+i \le 59$, exactly one of the following holds:$x_i = x_{i+1}$ and $|y_i -
+y_{i+1}| = 1$,$y_i = y_{i+1}$ and $x_i - x_{i+1}$ is $-1$ or $19$.",20460
+60,"The numbers 1, 2, . . . , 2100 are written on a board. Every second,
+Mark takes two numbers on the board, a and b, erases them, and replaces them
+with gcd(a, b) and lcm(a, b). Mark stops once any move he makes will not change
+the numbers written on the board. Compute the number of divisors of the 2026th
+smallest positive integer written on the board when he finishes.",3840
+61,"Compute $\sum_{k=1}^{\infty} \left( 2^{-\lfloor 101k/1 \rfloor} +
+2^{-\lfloor 101k/2 \rfloor} + \dots + 2^{-\lfloor 101k/100 \rfloor} \right)$.The
+sum can be expressed in the form $a \left( 1 - \frac{1}{2^b - 1} \right)$, where
+$a$ and $b$ are positive integers. Compute $a+b$.",151
+62,"Let $S = \sum_{k=0}^{2026} k \binom{2k}{k} 2^k$. Compute the remainder
+when $S$ is divided by 2027. (Note that 2027 is prime.)",289
+63,"Let $a_0, a_1, a_2, \dots$ be the unique sequence of nonnegative
+integers less than 397 with $a_0 = 1$ and $a_{n+1}(a_n + 1)^2 \equiv a_n
+\pmod{397}$ for all nonnegative integers $n$. Given that $a_{2026} = 9$, compute
+the remainder when $a_0 + a_1 + \dots + a_{2026}$ is divided by 397.",279
+64,"Let S be the set of positive integer divisors of 109 . Compute the
+number of subsets T of S such that • for every element s of S, exactly one of s
+and 109/s is in T, and • for every element t of T, all positive integer divisors
+of t are in T.",252
+65,"Let S be the set of vertices of a right prism whose bases are regular
+decagons A1A2 . . . A10 and B1B2 . . . B10. A plane, not passing through any
+vertex of S, partitions the vertices of S into two sets, one of which is M.
+Compute the number of possible sets M that can arise out of such a partition.",1574
